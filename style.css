@@ -1,0 +1,43 @@
+body {
+    background: url(files/web-bg.jpg);
+    background-size: 800px;
+    font-size: 15pt;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "ProductSans";
+}
+.intro {
+    border: 3px solid #FF6666;
+    background-color: #222222;
+}
+.intro img {
+    width: 150px;
+    border-radius: 50%;
+    padding: 15px;
+}
+.intro p {
+    font-family: "BreezeSans";
+    text-align: justify;
+    margin: 15px;
+}
+.intro button {
+    border: 3px solid #FFFFFF;
+    background-color: #222222;
+    margin: 25px;
+    border-radius: 20px;
+    padding: 20px 75px;
+    color: #FFFFFF;
+    font-family: "ProductSans";
+    font-size: 15pt;
+}
+.intro button img {
+    width: 50px;
+}
+@font-face {
+    font-family: "ProductSans";
+    src: url(fonts/ProductSansRegular.ttf)
+}
+@font-face {
+    font-family: "BreezeSans";
+    src: url(fonts/BreezeSans.ttf)
+}
